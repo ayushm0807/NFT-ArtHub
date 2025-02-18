@@ -1,22 +1,72 @@
-# IMPORTANT GUIDE
+# NFT Marketplace
 
-@theblockchaincoders
+## Overview
+This is a decentralized NFT Marketplace built using **Node.js, Next.js, React, and Solidity**. The platform allows users to mint, buy, and sell NFTs securely while integrating **MetaMask** for authentication and transactions. It operates on the **Polygon Amoy Test Network**.
 
-Build your NFT Marketplace start-up, in which you can provide users to upload the NFT to IPFS, and allow them to make API requests to fetch all the IPFS blockchain smart contract data.
+## Features
+- **NFT Minting**: Users can create and mint their own NFTs.
+- **Marketplace Functionality**: Buy and sell NFTs on the platform.
+- **MetaMask Integration**: Secure wallet authentication and transactions.
+- **Smart Contract Deployment**: Written in Solidity and deployed on Polygon Amoy Test Network using Remix IDE.
+- **Fast UI with Next.js**: Server-side rendering for better performance.
 
-Resource
-Final Code: [https://www.theblockchaincoders.com/sourceCode/build-chatgpt-web3-clone-dapp](https://www.theblockchaincoders.com/sourceCode/nft-marketplace-project-source-code)
+## Tech Stack
+- **Frontend**: React, Next.js
+- **Backend**: Node.js
+- **Blockchain**: Solidity, Polygon Amoy Test Network
+- **Wallet Integration**: MetaMask
 
-Get Pro Course "AI Movie APP": https://bit.ly/AI-Movie-App-Course
+## Installation & Setup
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [MetaMask Wallet](https://metamask.io/)
+- [Remix IDE](https://remix.ethereum.org/) for Solidity development
 
-Get Pro Blockchain Developer Course: https://www.theblockchaincoders.com/pro-nft-marketplace
+### Clone the Repository
+```sh
+git clone https://github.com/ayushm0807/NFT-ArtHub.git
+cd NFT-ArtHub
+```
 
-Support Creator: https://bit.ly/Support-Creator
+### Install Dependencies
+```sh
+npm install
+```
 
-All Projects Source Code: https://www.theblockchaincoders.com/SourceCode
+### Configure Environment Variables
+Create a `.env` file in the root directory and add:
+```
+NEXT_PUBLIC_PINATA_API_KEY=
+NEXT_PUBLIC_PINATA_SECRET_API_KEY=
+NEXT_PUBLIC_NFT_MARKETPLACE_ADDRESS=
+```
 
-Official Website: https://www.theblockchaincoders.com
+### Run the Development Server
+```sh
+npm run dev
+```
+Visit `http://localhost:3000` to see the marketplace in action.
 
-Book 1 -1 Appointment: https://bit.ly/Book-1-1-Appointment
+## Smart Contract Deployment
+1. **Write and Compile Contracts** in Remix IDE.
+2. **Deploy to Polygon Amoy Testnet** using Remix and MetaMask.
+3. **Get the Contract Address** and update `.env`.
 
-//0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+## MetaMask Configuration
+To interact with the marketplace, add the **Polygon Amoy Test Network** to MetaMask:
+- **Network Name**: Polygon Amoy Testnet
+- **RPC URL**: `https://rpc-amoy.polygon.technology/`
+- **Chain ID**: `80002`
+- **Currency Symbol**: POL
+- **Explorer**: `https://amoy.polygonscan.com/`
+
+## Contributing
+Feel free to contribute! Fork the repo, create a feature branch, and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For any queries, reach out via [ayushm0807@gmail.com](mailto:ayushm0807@gmail.com).
+
